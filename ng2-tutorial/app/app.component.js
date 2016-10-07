@@ -15,7 +15,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: '<navbar></navbar>'
+            template: '<navbar></navbar><jumbotron></jumbotron>'
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
