@@ -5,9 +5,10 @@ import { AppComponent }  from './app.component';
 import { ProfileComponent } from './components/profile.component'
 import { GithubService } from './services/github.service';
 import { HttpModule } from '@angular/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  imports: [ HttpModule, BrowserModule ],
+  imports: [ HttpModule, BrowserModule, FormsModule ],
   declarations: [ AppComponent, ProfileComponent ],
   bootstrap: [ AppComponent ],
   providers: [ GithubService ]
