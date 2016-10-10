@@ -1,0 +1,9 @@
+{
+  "globalDependencies": {
+    "angular-protractor": "registry:dt/angular-protractor",
+    "core-js": "registry:dt/core-js",
+    "jasmine": "registry:dt/jasmine",
+    "node": "registry:dt/node",
+    "selenium-webdriver": "registry:dt/selenium-webdriver"
+  }
+}
