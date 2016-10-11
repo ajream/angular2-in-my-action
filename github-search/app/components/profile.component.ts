@@ -9,8 +9,8 @@ import 'rxjs/add/operator/map';
 })
 
 export class ProfileComponent {
-    user[];
-    repos[];
+    user: boolean;
+    repos: string;
     username: string;
     constructor(private _githubService: GithubService) {
         this.user = false;
