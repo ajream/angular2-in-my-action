@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent }  from './app.component';
 import { NavbarComponent }  from './components/navbar/navbar.component';
 import { AboutComponent }  from './components/about/about.component';
+import { SearchComponent }  from './components/search/search.component';
+import { Routes } from './app.routes';
 
 @NgModule({
-  imports: [ BrowserModule ],
-  declarations: [ AppComponent, NavbarComponent, AboutComponent ],
+  imports: [ BrowserModule, Routes ],
+  declarations: [ AppComponent, NavbarComponent, AboutComponent, SearchComponent ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
