@@ -11,4 +11,4 @@ const appRoutes: Routes = [
     { path: 'about', component: AboutComponent }
 ];
 
-export const Routes: ModuleWithProviders = RouterModule.forRoot(appRoutes);
+export const routes: ModuleWithProviders = RouterModule.forRoot(appRoutes);
